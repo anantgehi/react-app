@@ -67,6 +67,6 @@ git push
 ```
 npm run deploy
 ```
-### 6. Create pull request for both main branch and gh-pages
+### 6. Create pull request for both main branch and gh-pages branch
 
 Readme Reference : https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
