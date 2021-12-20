@@ -3,6 +3,7 @@ import './App.css';
 import AmanComponent from './Components/Aman';
 import DeepanshuComponent  from './Components/Deepanshu';
 import RoshanComponent  from './Components/Roshan';
+import ADComponent from './Components/ADComponent';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AmanComponent/>
       <DeepanshuComponent/>
       <RoshanComponent/>
+      <ADComponent />
   </div>
   );
 }
