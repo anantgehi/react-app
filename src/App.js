@@ -5,6 +5,7 @@ import DeepanshuComponent  from './Components/Deepanshu';
 import RoshanComponent  from './Components/Roshan';
 import ADComponent from './Components/ADComponent';
 import VinitComp from './Components/Vinit';
+import AnantComponent from './Components/Anant'
 function App() {
   return (
   <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <RoshanComponent/>
       <ADComponent />
       <VinitComp />
+      <AnantComponent/>
   </div>
   );
 }
