@@ -74,7 +74,7 @@ npm run deploy
 
 ## Netlify
 
-### Just link your repository having react-app on Netlify website and deploy.
-### Make sure react-app does not gives any warnings, netlify treats warnings as errors and site will not be deployed. 
+### 1. Just link your repository having react-app on Netlify website and deploy.
+### 2. Make sure react-app does not gives any warnings, netlify treats warnings as errors and site will not be deployed. 
 
 Readme Reference : https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
