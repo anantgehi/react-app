@@ -1,5 +1,7 @@
 # Creating and Deploying React app on Github pages
 
+Website Deployed - https://dreamy-wozniak-0e7d23.netlify.app/
+
 ## Procedure
 
 ### Prerequisites :
@@ -13,12 +15,12 @@
 ```
 npx create-react-app react-app
 ```
-### 2. Install Github Pages Dependency
+### 2. Install Github Pages Dependency(Optional if using Github pages, not required in Netlify)
 ```
 cd react-app
 npm install gh-pages --save-dev
 ```
-### 3. Make Changes in Package.json
+### 3. Make Changes in Package.json(Optional if using Github pages, not required in Netlify)
 
 The first property we need to add at the top level homepage second we will define this as a string and the value will be "http://{username}.github.io/{repo-name}" {username} is your GitHub username, and {repo-name} is the name of the GitHub repository you created it will look like this :
 ```
@@ -39,7 +41,7 @@ git remote add origin https://github.com/anantgehi/react-app.git
 git branch -M main
 git push -u origin main
 ```
-### 6. Publish and Deploy App on repository to Github Pages
+### 6. Publish and Deploy App on repository to Github Pages(Optional if using Github pages, not required in Netlify)
 ```
 npm run deploy
 ```
@@ -63,10 +65,16 @@ git add .
 git commit -m "any_comment"
 git push
 ```
-### 6. Publish and Deploy App on repository to Github Pages
+### 6. Publish and Deploy App on repository to Github Pages(Optional if using Github pages, not required in Netlify)
 ```
 npm run deploy
 ```
-### 6. Create pull request for both main branch and gh-pages branch
+### 6. Create pull request for main branch
+### 7. Create pull request for gh-pages branch(Optional if using Github pages, not required in Netlify)
+
+## Netlify
+
+### Just link your repository having react-app on Netlify website and deploy.
+### Make sure react-app does not gives any warnings, netlify treats warnings as errors and site will not be deployed. 
 
 Readme Reference : https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
