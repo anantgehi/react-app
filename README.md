@@ -69,8 +69,8 @@ git push
 ```
 npm run deploy
 ```
-### 6. Create pull request for main branch
-### 7. Create pull request for gh-pages branch(Optional if using Github pages, not required in Netlify)
+### 7. Create pull request for main branch
+### 8. Create pull request for gh-pages branch(Optional if using Github pages, not required in Netlify)
 
 ## Netlify
 
