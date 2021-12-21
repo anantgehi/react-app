@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import AmanComponent from './Components/Aman';
 import DeepanshuComponent  from './Components/Deepanshu';
