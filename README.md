@@ -1,4 +1,4 @@
-# Creating and Deploying React app on Github pages
+# Creating and Deploying React app on Github pages/Netlify
 
 Website Deployed - https://dreamy-wozniak-0e7d23.netlify.app/
 
