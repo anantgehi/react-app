@@ -78,3 +78,5 @@ npm run deploy
 ### 2. Make sure react-app does not gives any warnings, netlify treats warnings as errors and site will not be deployed. 
 
 Readme Reference : https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
+##Commit
